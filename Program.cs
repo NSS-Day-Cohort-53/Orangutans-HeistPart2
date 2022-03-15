@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Orangutans_HeistPart2
+namespace Heist
 {
     class Program
     {
