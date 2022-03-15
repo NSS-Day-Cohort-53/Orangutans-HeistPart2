@@ -18,5 +18,10 @@ namespace Heist
                 Console.WriteLine($"{Name} has entered the vault!");
             }
         }
+
+        public string PrintSpecialty()
+        {
+            return $"{Name} is a Lock Specialist with Skill Level: {SkillLevel} and Percentage Cut: {PercentageCut}";
+        }
     }
 }
