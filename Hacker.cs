@@ -18,5 +18,9 @@ namespace Heist
                 Console.WriteLine($"{Name} has disabled the alarm system!");
             }
         }
+        public string PrintSpecialty()
+        {
+            return $"{Name} is a Hacker with Skill Level: {SkillLevel} and Percentage Cut: {PercentageCut}";
+        }
     }
 }
